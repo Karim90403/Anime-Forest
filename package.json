@@ -1,0 +1,25 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/js/scripts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.0",
+    "three": "^0.133.0"
+  },
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0"
+  }
+}
